@@ -1,0 +1,83 @@
+:root {
+    --azul-oscuro: hsl(233, 47%, 7%);
+    --azul: hsl(244, 38%, 16%);
+    --violeta: hsl(277, 64%, 61%);
+    --blanco:hsl(0, 0%, 100%);
+    --parrafos: hsla(0, 0%, 100%, 0.75);
+    --stads: hsla(0, 0%, 100%, 0.6);
+}
+
+body {
+    font-size: 1.5rem;
+    background-color: var(--azul-oscuro);
+    color: var(--blanco);
+    font-family: 'Inter', sans-serif;
+}
+
+main {
+    width: 90rem;
+    height: 32rem;
+    background-color: var(--azul);
+    border-radius: 1rem;
+    margin: 12rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.texto {
+    box-sizing: border-box;
+    padding: 3rem 5rem 5rem 5rem;
+    width: 45rem;
+}
+
+h1 b {
+    color: var(--violeta);
+}
+
+.texto p {
+    font-family: 'Lexend Deca', sans-serif;
+    color: var(--parrafos);
+    font-size: 1rem;
+    width: 25rem;
+    line-height: 1.8rem;
+}
+
+.estadisticas {
+    display: flex;
+    width: 100%;
+    text-transform: uppercase;
+    margin-top: 5rem;
+}
+
+.estadisticas span {
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    width: 11rem;
+    line-height: 1.8rem;
+}
+
+.estadisticas span b {
+    color: var(--stads);
+    font-size: 0.8rem;
+    letter-spacing: .1rem;
+    font-weight: 400;
+}
+
+.imagen {
+    width: 45rem;
+    background: url(/img/image-header-desktop.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.imagen .colorsito {
+    background-color: var(--violeta);
+    width: 80rem;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+}
