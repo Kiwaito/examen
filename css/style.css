@@ -67,7 +67,7 @@ h1 b {
 
 .imagen {
     width: 45rem;
-    background: url(/img/image-header-desktop.jpg);
+    background: url(./img/image-header-desktop.jpg);
     background-size: cover;
     position: relative;
 }
